@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #000;
+    padding: 20px;
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+main {
+    .input {
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+        padding: 20px;
+        margin: 100px;
+        .box {
+            #multiply_number {
+                padding: 20px;
+                border-width: 1px;
+            }
+        }
+        .button {
+            margin-left: 20px;
+            border-radius: 0px;
+            
+            #multiply_submit {
+                padding: 0px;
+                background-color: #fff;
+                border-width: 1px;
+            }
+
+            #multiply_submit:hover {
+                padding: 10px;
+                background-color: #ddd;
+                border-width: 1px;
+            }
+        }
+    }
+
+    .display {
+        padding: 20px;
+        background-color: #ccc;
+        margin: 100px;
+    }
+}
