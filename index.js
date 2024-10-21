@@ -2,7 +2,7 @@ let inputs = document.getElementById("number");
 let submits = document.getElementById("submit");
 let display = document.getElementById("show");
 
-submits.addEventListener("click", () => {
+submits.addEventListener("click", () => { //arrow function
     let inputValue = inputs.value;
     console.log(inputValue);
     display.innerHTML = ''
@@ -10,3 +10,5 @@ submits.addEventListener("click", () => {
         display.innerHTML += "<p>" + inputValue + " x " + i + "<br>" + "<b>" + (inputValue * i) + "</b>" + "</p>" + "<hr>";
     }
 });
+
+// array
