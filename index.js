@@ -7,6 +7,6 @@ submits.addEventListener("click", () => {
     console.log(inputValue);
     display.innerHTML = ''
     for (let i = 1; i <= 12; ++i) {
-        display.innerHTML += "<p>" + inputValue + " x " + i + " = " + (inputValue * i) + "</p>";
+        display.innerHTML += "<p>" + inputValue + " x " + i + "<br>" + "<b>" + (inputValue * i) + "</b>" + "</p>" + "<hr>";
     }
 });
